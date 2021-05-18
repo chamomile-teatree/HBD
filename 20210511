@@ -1,0 +1,136 @@
+</<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ʏᴏᴜ'ᴠᴇ ɢᴏᴛ ᴍᴀɪʟ</title>
+
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/47/72/76/477276709f6faf818ffead44ad16ac6b.png">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+    <meta property="og:image" content="https://www.funnyiq.com/wp-content/uploads/2021/03/happy-birthday-candles-picture-id1202880334.jpg">
+    <meta property="og:title" content="생일 카드">
+    <meta property="og:description" content="히히">
+
+    <style>
+      body{
+        background-image: url("https://i.pinimg.com/originals/68/8e/9e/688e9eb45c2f5cc82361d5c305ccc0ca.gif");
+      }
+
+      h1{
+        text-align:center;
+        background-width: 100;
+        font-family: 'Jua', sans-serif;
+        margin-top: 300px;
+        font-size: 60
+      }
+
+      h2{
+        text-align:center;
+        background-width: 100;
+        font-family: 'Jua', sans-serif;
+        margin-bottom: 300px;
+        font-size: 60
+      }
+
+      p{
+        text-align:center;
+      }
+
+      .all{
+        margin : auto;
+
+      }
+
+    </style>
+
+    <script type="text/javascript">
+<!--
+function toSpans(span) {
+  var str=span.firstChild.data;
+  var a=str.length;
+  span.removeChild(span.firstChild);
+  for(var i=0; i<a; i++) {
+    var theSpan=document.createElement("SPAN");
+    theSpan.appendChild(document.createTextNode(str.charAt(i)));
+    span.appendChild(theSpan);
+  }
+}
+
+function RainbowSpan(span, hue, deg, brt, spd, hspd) {
+    this.deg=(deg==null?360:Math.abs(deg));
+    this.hue=(hue==null?0:Math.abs(hue)%360);
+    this.hspd=(hspd==null?3:Math.abs(hspd)%360);
+    this.length=span.firstChild.data.length;
+    this.span=span;
+    this.speed=(spd==null?50:Math.abs(spd));
+    this.hInc=this.deg/this.length;
+    this.brt=(brt==null?255:Math.abs(brt)%256);
+    this.timer=null;
+    toSpans(span);
+    this.moveRainbow();
+}
+
+RainbowSpan.prototype.moveRainbow = function() {
+  if(this.hue>359) this.hue-=360;
+  var color;
+  var b=this.brt;
+  var a=this.length;
+  var h=this.hue;
+
+  for(var i=0; i<a; i++) {
+
+    if(h>359) h-=360;
+
+    if(h<60) { color=Math.floor(((h)/60)*b); red=b;grn=color;blu=0; }
+    else if(h<120) { color=Math.floor(((h-60)/60)*b); red=b-color;grn=b;blu=0; }
+    else if(h<180) { color=Math.floor(((h-120)/60)*b); red=0;grn=b;blu=color; }
+    else if(h<240) { color=Math.floor(((h-180)/60)*b); red=0;grn=b-color;blu=b; }
+    else if(h<300) { color=Math.floor(((h-240)/60)*b); red=color;grn=0;blu=b; }
+    else { color=Math.floor(((h-300)/60)*b); red=b;grn=0;blu=b-color; }
+
+    h+=this.hInc;
+
+    this.span.childNodes[i].style.color="rgb("+red+", "+grn+", "+blu+")";
+  }
+  this.hue+=this.hspd;
+}
+//-->
+</script>
+</HEAD>
+
+  <body>
+
+    <div>
+    <h1 id="r1">💖20210511💖</h1>
+    </div>
+
+    <script type="text/javascript">
+    var r1=document.getElementById("r1"); //get span to apply rainbow
+    var myRainbowSpan=new RainbowSpan(r1, 0, 360, 255, 50, 18); //apply static rainbow effect
+    myRainbowSpan.timer=window.setInterval("myRainbowSpan.moveRainbow()", myRainbowSpan.speed);
+    </script>
+
+    <p><img src="https://www.madisonclub.org/media/52791/red-envelope.png?width=389px&amp;height=296px" usemap="#image-map"></p>
+
+    <map name="image-map">
+      <area target="" alt="휘리릭" title="휘리릭" href="https://forms.gle/UYz1b5S5xGSgjV5D6" coords="35,11,14,254,353,284,374,42" shape="poly">
+    </map>
+
+    <div>
+    <h2 id="r2">생일 축하해!!</h2>
+    </div>
+
+    <script type="text/javascript">
+      var r2=document.getElementById("r2"); //get span to apply rainbow
+      var myRainbowSpan2=new RainbowSpan(r2, 0, 360, 255, 50, 348); //apply static rainbow effect
+      myRainbowSpan2.timer=window.setInterval("myRainbowSpan2.moveRainbow()", myRainbowSpan2.speed);
+    </script>
+
+  </body>
+
+</html>
+
+
+<!--div class=envelope><p><img src="https://www.madisonclub.org/media/52791/red-envelope.png?width=389px&height=296px" border="0" width="400" height="300"></p></div>-->
